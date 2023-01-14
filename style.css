@@ -1,0 +1,129 @@
+body{
+    background-color: #1F2937;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 114px;
+    margin-top: 179px;
+}
+@font-face {
+    font-family: head-font;
+    src: url(Blockletter.otf);
+}
+h1{
+    font-family: head-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+.line-dos{
+    margin-top: 0px;
+    font-family: head-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #4ADF86;
+    margin-bottom: 10px;
+}
+button{
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#text-field{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 24px;
+}
+#text-field-un,#text-field-dos{
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
+.button-un{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 8px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+/*#input-length{
+    width: 100px;
+    height: 40px;
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}*/
+#increm,#decrem{
+    width: 50px;
+    height: 42px;
+    background: #0284C7;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#length-field{
+    width: 100px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: head-font;
+}
+#generate{
+    margin-right: 30px;
+}
